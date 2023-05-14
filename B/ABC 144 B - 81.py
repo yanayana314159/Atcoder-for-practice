@@ -33,7 +33,7 @@ else:
 
 #可読性高いコード
 N = int(input())
-for i in range(1, 10):
+for i in range(1, 10):  
     if not N%i and N//i < 10:
     not N % i は、N % i の結果が 0 でない場合に True、0 の場合に False を返します。not は、論理 NOT 演算子であり、True を False に、False を True に反転させる働きがあります。
     例えば、N が 10、i が 3 の場合を考えます。N % i は 1 となります。not N % i は not 1 と同じで、False となります。この場合、条件式は False and N // i < 10 となり、if文の中の処理が実行されません
